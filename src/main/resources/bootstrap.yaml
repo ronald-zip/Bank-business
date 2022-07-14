@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: microservicio-representante-empresarial
+  cloud:
+    config:
+      enabled: true
+      label: master
+      uri: http://localhost:7000 
+
+  kafka:
+    bootstrap-servers: LIM-8VD52F3.usersad.everis.int:9092      
+config:
+ balanceador:
+  test: prueba balanceador
